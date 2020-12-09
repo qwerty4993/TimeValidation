@@ -1,0 +1,12 @@
+<label>From Date:</label>
+<p-calendar [(ngModel)]="fromDate" (onSelect)="doSomething($event)" [timeOnly]="true" class="timer"
+	placeholder='Set Time' [showIcon]="true" [maxDate]="fromDateMax"></p-calendar>
+<br>
+<br>
+<br>
+<label>To Date:</label>
+<p-calendar [(ngModel)]="toDate" [timeOnly]="true" class="timer" [showIcon]="true" placeholder='Set Time'
+	[maxDate]="toDateMax"></p-calendar>
+<br>
+<br>
+<br>
